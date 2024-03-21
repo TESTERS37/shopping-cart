@@ -1,0 +1,130 @@
+:root {
+    --surface-border: rgba(0, 0, 0, 0.2);;
+}
+
+.p-confirm-popup {
+    background: #ffffff;
+    color: #212529;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 1.25rem;
+}
+
+.p-confirm-popup .p-confirm-popup-footer {
+    text-align: right;
+    padding: 0.5rem 1.25rem;
+}
+
+.p-confirm-popup .p-confirm-popup-footer button {
+    margin: 0 0.5rem 0 0;
+    width: auto;
+}
+
+.p-confirm-popup .p-confirm-popup-footer button:last-child {
+    margin: 0;
+}
+
+.p-confirm-popup:after {
+    border: solid transparent;
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #ffffff;
+}
+
+.p-confirm-popup:before {
+    border: solid transparent;
+    border-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+
+.p-confirm-popup.p-confirm-popup-flipped:after {
+    border-top-color: #ffffff;
+}
+
+.p-confirm-popup.p-confirm-popup-flipped:before {
+    border-top-color: rgba(0, 0, 0, 0.2);
+}
+
+.p-confirm-popup .p-confirm-popup-icon {
+    font-size: 1.5rem;
+}
+
+.p-confirm-popup .p-confirm-popup-message {
+    margin-left: 1rem;
+}
+
+.p-dialog {
+    border-radius: 4px;
+    box-shadow: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.p-dialog .p-dialog-header {
+    border-bottom: 1px solid #e9ecef;
+    background: #ffffff;
+    color: #212529;
+    padding: 1rem;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.p-dialog .p-dialog-header .p-dialog-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.p-dialog .p-dialog-header .p-dialog-header-icon {
+    width: 2rem;
+    height: 2rem;
+    color: #6c757d;
+    border: 0 none;
+    background: transparent;
+    border-radius: 50%;
+    transition: box-shadow 0.15s;
+    margin-right: 0.5rem;
+}
+
+.p-dialog .p-dialog-header .p-dialog-header-icon:enabled:hover {
+    color: #495057;
+    border-color: transparent;
+    background: transparent;
+}
+
+.p-dialog .p-dialog-header .p-dialog-header-icon:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: 0 0 0 0.2rem rgba(136, 60, 174, 0.5);
+}
+
+.p-dialog .p-dialog-header .p-dialog-header-icon:last-child {
+    margin-right: 0;
+}
+
+.p-dialog .p-dialog-content {
+    background: #ffffff;
+    color: #212529;
+    padding: 1rem;
+}
+
+.p-dialog .p-dialog-footer {
+    border-top: 1px solid #e9ecef;
+    background: #ffffff;
+    color: #212529;
+    padding: 1rem;
+    text-align: right;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.p-dialog .p-dialog-footer button {
+    margin: 0 0.5rem 0 0;
+    width: auto;
+}
+
+.p-dialog.p-confirm-dialog .p-confirm-dialog-icon {
+    font-size: 2rem;
+}
+
+.p-dialog.p-confirm-dialog .p-confirm-dialog-message {
+    margin-left: 1rem;
+}
